@@ -1,4 +1,4 @@
-# md5
+# MD5 generator
 String to MD5 using cpp
 Console log example:
 ```
