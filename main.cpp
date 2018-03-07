@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
 {
 	string userString;
 	string md5String;
-    cout << "Write your string here: "<< endl;
-    cin>>userString;
+    	cout << "Write your string here: "<< endl;
+    	cin>>userString;
 	md5String=md5(userString);
 	cout<<md5String;
 	HWND hwnd = GetDesktopWindow();
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	cout << endl<<"String saved to clipboard";
 	cout << endl<<"Press enter to exit";
 	getch();
-    return 0;
+   	return 0;
 }
 void toClipboard(HWND hwnd, const std::string &s){
 	OpenClipboard(hwnd);
